@@ -7,7 +7,91 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
+<style>
+    *{
+    margin: 0 auto;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/3551101.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main{
+    width: 80%;
+    height: 600px;
+    margin-top: 10px;
+}
+#a, #b, #c{
+    width: 31.33%;
+    height: 600px;
+    float: left;
+    text-align: center;
+    box-shadow: 10px 10px 30px black;
+    border-radius: 5%;
+    margin: 0.5%;
+}
+#a{background: linear-gradient(135deg, #32925a, #cbf0f5, #327465);
+border: 5px #39ca6a outset;}
+/* se o padding for aplicado nas tags internas eu nao preciso ajustar as sections #a, #b, #c */
+p{padding: 2%;}
+h1{padding: 2%;}
+img{padding: 2%;}
+
+#b{ background: linear-gradient(135deg, #7A9EAC, #F2E2C4, #898f70);
+border: 5px #7A9EAC outset;}
+p{padding: 2%;}
+h1{padding: 2%;}
+img{padding: 2%;}
+
+#c{ background: linear-gradient(135deg, #F7B267, #e98064, #FFD166);
+border: 5px #6d1c06 outset;}
+p{padding: 2%;}
+h1{padding: 2%;}
+img{padding: 2%;}
+
+img{
+    position: relative;
+    margin-top: 5%;
+    border: #f8eded 8px double;
+    border-radius: 4%;
+}
+
+a{
+    color: #181a17;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #f8eded;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: #d4bbbb;
+}
+p{
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 600;
+}
+h1{
+    text-shadow: 4px 4px rgb(182, 153, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*responsividade*/
+@media only screen and (max-width: 768px) {
+    #a, #b, #c{ width: 100%; height: auto;}
+    .btn{ margin-bottom: 20px;}
+}
+</style>
+
 </head>
 <body>
     <main>
@@ -33,6 +117,4 @@
         </section>
     </main>
 </body>
-</html> 
-
-
+</html>
